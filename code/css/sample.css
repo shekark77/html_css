@@ -1,12 +1,14 @@
 body{
-    background-color: rgb(255, 255, 255);
-    padding: 25px 50px 75px 100px;
+    background-color: #ffffff91;
+    padding:1px 1px;
+    margin: 1px;
     text-align: center;
+    
 }
 @media screen and (max-width:600px){
     h1 {
-        font-size: 32px !important;
-        line-height: 32px !important;
+        font-size: 32px;
+        line-height: 32px;
     }
 }
 nav{
@@ -15,6 +17,8 @@ nav{
                 font-size:30px;
                 font-weight:bold;
                 padding:6px 20px 6px; 
+                top: 0px;
+                left: 1px;
             
 }
 a:hover{
@@ -26,30 +30,72 @@ a:visited {
   a:active {
     color: yellow;
   }
-.white{
- background-color: rgb(243, 229, 242);
+.White{
+ background-color:#FFFFFF;
  text-align: center;
- padding: 4rem;
-
+ display: block;
+ width: 30%;
+ height: 10%;
+ border: 1rem;
+ border-radius: 2%;
+ box-shadow:20px 20px 50px 10px whitesmoke inset;
+ box-shadow:20px 20px 50px 10px powderblue;
+ position: relative;
+ top: 30%;
+ margin: -5% 25%;
+ padding:7% 10%;
+}
+.White h1{
+  margin: 1px;
+  border: 2px;
+  
+  padding: 10px 10px 5px 5px;
+ font-weight: 400;
+ font-size: 40px;
+ position: relative;
+ top: -20px;
+ font-family: 'Lato', Helvetica, Arial, sans-serif;
+  letter-spacing: 4px;
 }
 .blue{
-background-color: blueviolet;
+background-color:#33cabb;
+color: #FFFFFF; 
+border-radius: 0%;
+margin: 1px;
+padding:10% 10%;
+position: relative;
+left: 0px;
+top: 0px;
 }
-section#button{
-    background-color: rgb(203, 222, 228);
-    background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.blue h1{
+  text-transform: uppercase;
+  padding-top: 10px;
+  position: absolute;
+  top: 15%;
+  left: 40%;
 }
-section#btn{
-background-color: #4CAF50; /* Green */
+footer{
+  margin: 10% 10%;
+  position: absolute;
+  top: 80%;
+  left: 17%;
+  
+}
+footer p{
+  float: left;
+}
+
+.button p{
+  display: block;
+  margin: 1px;
+  padding: 10px 10px;
+  margin: 1px;
+  position: relative;
+  top: 10%;
+  left:-20%;
+}
+.button #btn{
+background-color: #33cabb; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
