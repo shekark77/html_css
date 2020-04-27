@@ -1,0 +1,157 @@
+html{
+    align-items: center;
+   
+}
+body{
+   margin: 1px;
+    background-color: #f3f3f3;
+}
+header{
+    display: flex;
+    height: auto;
+    margin: 0px;
+    border: 4px;
+    padding: 15px 10px;
+    background-color: #204060;
+}
+.cart h1{
+    width: 10%;
+    position: relative;
+    color: white;
+    margin: 20px;
+    padding: 10% 0% 0%;
+}
+.cart h3{
+    display: inline;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    padding: 0% 5% 10% 5%;
+}
+.car{
+    width: 2rem;
+    position: absolute;
+    top: 7%;
+    left: 90%;
+    background-color: chocolate;
+}
+.image img{
+border-image: 1em;
+padding: 4% 4%;
+margin: 1rem;
+position: relative;
+left: 35%;
+
+}
+
+.image{
+    background-color:  #2d5986;
+    padding: 10rem10rem;
+    display: inline-box;
+    
+}
+
+.white{
+    padding: 10% 10%;
+    text-align: center;
+}
+.white h1{
+    margin: 1px 1px;
+    text-transform: uppercase;
+    border: 0px;
+}
+.white button{
+    background-color: orange;
+    color: #ffffff;
+    font-size: 100%;
+    border:none;
+    border-radius:2%;
+    text-align: center;
+    margin: 1px;
+    display: inline-block;
+    padding: 20px 30px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.green{
+    padding: 50px;
+    background: linear-gradient(to bottom, #1e8991 -20%, #00cc99 98%);
+    position: relative;
+}
+.list{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    bottom: 20%;
+}
+.green a{
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin: 2px;
+    border: 10px;
+    border-radius: 4px;
+    height: 20px;
+}
+.green ol{
+    list-style-type: none;
+    display: flex;
+    width: 2rem;
+    
+    
+}
+.green img{
+    padding: 10px 10px;
+    height: 40px;
+}
+.contact{
+    padding: 20px 10px 0px 0px;
+    background-color: gray;
+    margin-top: -17px;
+    text-align: center;
+}
+.contact p{
+opacity: 0.5;
+}
+.contact span{
+    font-size: 300%;
+    display: flex;
+    position: relative;
+    border: 2px;
+    border-radius: 7px;
+    left: 50%;
+    box-sizing: border-box;
+    color: #ffffff;
+    padding: 6px 6px 7px 7px;
+    margin: 1px;
+    width: 50px;
+    height: 50px;
+    background-color: #2d5986;
+    
+}
+.contact a:hover{
+    color: red;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    header{
+       display: -moz-inline-box;
+    }
+    .car{
+        width: 15px;
+    }
+    .cart h3{
+        font-size: 11px;
+        
+    }
+    .image img{
+        width: 20%;
+    }
+  }
